@@ -4,7 +4,13 @@
 
 {%block main_content%}
 
-<h1> I am in home page </h1>
+<div class = "jumbotron">
+    <div class="container">
+        <img src="{% static '/mvsr.png' %}" class="rounded float-start" alt="mvsr" height="200">
+        <h1 class = "display-4">Hello, readers!</h1>
+        <p>Welcome to College Library. We have a large collection of books to cater the reading needs of all kinds of readers.</p>
+        <p><button type="button" class="btn btn-primary btn-lg">Browse our collection>></button></p>
+</div>
 
 
 {% endblock %}
